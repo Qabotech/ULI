@@ -1,0 +1,1933 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+
+  padding: 0;
+
+  margin: 0;
+
+  text-decoration: none;
+
+  font-family: var(--font-main);
+
+  color: #fff;
+
+  font-weight: 500;
+
+  -ms-overflow-style: none;
+
+  scrollbar-width: none;
+
+}
+
+html::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+*::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+body {
+
+  zoom: 1;
+
+}
+
+.overlay sup {
+
+  color: #cfa81d;
+
+}
+
+:root {
+
+  --F-c-: #38783a;
+
+  --G-c: #f3b603;
+
+  --B-c: #386f86;
+
+  --R-c: #bf3f2e;
+
+  --font-main: "Cairo", sans-serif;
+
+}
+
+.D-N {
+
+  display: none;
+
+}
+
+.D-B {
+
+  display: block;
+
+}
+
+.D-F {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+
+.navbtn {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: white;
+
+  font-size: 6vw;
+
+  position: absolute;
+
+  z-index: 99;
+
+}
+
+.fa-bars {
+
+  padding: 0.8em;
+
+  background: var(--F-c);
+
+  border-radius: 0em 0.5rem 0.5rem 0em;
+
+}
+
+.fa-times {
+
+  display: none;
+
+}
+
+
+
+.f-shown {
+
+  display: flex !important;
+
+}
+
+.b-shown {
+
+  display: block !important;
+
+}
+
+.hidden {
+
+  display: none !important;
+
+}
+
+.v-hidden {
+
+  opacity: 0;
+
+}
+
+.body {
+
+  overflow-y: hidden !important;
+
+}
+
+body {
+
+  position: relative;
+
+}
+
+.bxcont .box {
+
+  min-width: 500px;
+
+}
+
+.p-nav {
+
+  width: 87vw;
+
+  height: 100vh;
+
+  background: var(--F-c);
+
+  overflow: visible !important;
+
+  position: absolute;
+
+  z-index: 99;
+
+  display: none;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+#times {
+
+  position: absolute;
+
+  top: 0;
+
+  right: -13vw;
+
+  padding: 1em;
+
+  font-size: 6vw;
+
+  color: white;
+
+  background: var(--F-c);
+
+  border-radius: 0em 0.5rem 0.5rem 0em;
+
+  text-align: center;
+
+}
+
+.p-nav .img {
+
+  width: 30vw;
+
+}
+
+.p-nav i {
+
+  cursor: pointer;
+
+}
+
+.p-nav img {
+
+  width: 40vw;
+
+  margin: 0 !important;
+
+}
+
+
+
+.pn-cont a {
+
+  color: white;
+
+}
+
+.pn-cont ul {
+
+  color: white;
+
+  text-align: center;
+
+  font-size: 10vw;
+
+}
+
+.pn-cont i {
+
+  margin-bottom: 1em;
+
+  font-size: 7vw;
+
+}
+
+
+
+nav {
+
+  height: 10vh;
+
+  width: 100vw;
+
+  position: absolute;
+
+  top: 0;
+
+  z-index: 99;
+
+  padding: 3vh 0;
+
+}
+
+.navs {
+
+  display: flex;
+
+  margin-bottom: 1vh;
+
+}
+
+nav>ul {
+
+  width: 100%;
+
+  height: 100%;
+
+  color: #fff;
+
+  justify-content: unset !important;
+
+  font-family: var(--font-main);
+
+}
+
+span {
+
+  color: white;
+
+}
+
+nav>ul li {
+
+  padding: 1em;
+
+  list-style: none;
+
+  font-weight: 900;
+
+  font-size: 1.1vw;
+
+}
+
+nav>ul img {
+
+  width: 6vw;
+
+  filter: grayscale(100%);
+
+}
+
+.main-content {
+
+  height: 100vh;
+
+  scroll-snap-type: y mandatory;
+
+  overflow-y: scroll;
+
+  scroll-behavior: smooth;
+
+}
+
+.this-logo {
+
+  display: block;
+
+  margin: 0 auto;
+
+}
+
+section {
+
+  height: 100vh;
+
+  scroll-snap-align: center;
+
+  display: grid;
+
+  place-content: center;
+
+  overflow: visible;
+
+}
+
+/* Youssef */
+
+.section-read-more {
+
+  color: var(--G-c);
+
+  /* text-decoration: underline; */
+
+  transition: all ease-in-out 0.25s;
+
+  padding: 0 1vw;
+
+  border: 0.2vw solid var(--G-c);
+
+  border-radius: 5vw;
+
+  font-size: 1.45vw;
+
+}
+
+.section-read-more:hover {
+
+  color: var(--B-c);
+
+  border-color: var(--B-c);
+
+}
+
+/* Youssef */
+
+#header-content {
+
+  background-image: url("https://cdn.discordapp.com/attachments/895360180265574500/941694464873865226/kaba-black.jpg");
+
+  background-size: cover;
+
+  background-color: var(--F-c-);
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+
+#header-content>.overlay {
+
+  width: 100%;
+
+  height: 100vh;
+
+  z-index: 5;
+
+  flex-wrap: wrap;
+
+  flex-direction: column;
+
+}
+
+#header-content>.overlay h1 {
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 4.33vw;
+
+  color: var(--G-c);
+
+  font-weight: 600;
+
+}
+
+#header-content>.overlay h4 {
+
+  color: #cfa81d;
+
+  position: absolute;
+
+  right: 13vw;
+
+  top: 58.8vh;
+
+  font-weight: 700;
+
+  font-size: 1.5vw;
+
+}
+
+#header-content>.overlay h3 {
+
+  width: 75%;
+
+  text-align: center;
+
+  margin: 0;
+
+  font-size: 1.5vw;
+
+  color: var(--G-c);
+
+  font-weight: unset;
+
+}
+
+.btn {
+
+  margin: 7vh 0;
+
+  background: transparent;
+
+  outline: none;
+
+  border: 0.2vw solid var(--G-c);
+
+  width: fit-content;
+
+  border-radius: 5vw;
+
+  color: var(--G-c);
+
+  font-size: 1.5vw;
+
+  padding: 0 2vw;
+
+  cursor: pointer;
+
+  transition: all ease-in-out 0.35s;
+
+  transform: scale(0.8);
+
+}
+
+.btn:hover {
+
+  background: #1e404ea9;
+
+  border: 0.2vw solid var(--G-c);
+
+  color: var(--G-c);
+
+  transform: scale(0.9);
+
+}
+
+
+
+#about-islam {
+
+  padding: 0 12.5%;
+
+}
+
+
+
+#about-islam .content {
+
+  height: max-content;
+
+  width: 100%;
+
+  zoom: 0.8;
+
+}
+
+#about-islam .txt {
+
+  width: 100%;
+
+  height: -webkit-fill-available;
+
+  flex-wrap: wrap;
+
+  justify-content: left;
+
+}
+
+#about-islam .txt h3 {
+
+  color: var(--F-c-);
+
+  width: 100%;
+
+  font-size: 1.5vw;
+  /*Edited by Youssef it was 1.7*/
+
+  font-weight: unset;
+
+  text-align: justify;
+
+  padding-right: 3vw;
+
+}
+
+#about-islam .txt h2 {
+
+  color: var(--F-c-);
+
+  width: 100%;
+
+  font-size: 2vw;
+
+  font-weight: 600;
+
+}
+
+#about-islam .img {
+
+  width: 50vw;
+
+  height: 70vh;
+
+  transform: perspective(40vw) rotateY(-15deg);
+
+  margin-left: 5%;
+
+  margin-bottom: 3%;
+  /*Created by Youssef */
+
+  background-image: url("./Media/islam-r.svg");
+
+  background-size: 100% 100%;
+
+  overflow: hidden;
+
+}
+
+.isaa svg {
+
+  transform: scale(1.4);
+
+}
+
+#about-islam .a-img {
+
+  width: 10vh;
+
+  height: 10vh;
+
+  border-radius: 50%;
+
+  padding: 1em 0;
+
+}
+
+
+
+#about-islam .a-img svg {
+
+  width: 100%;
+
+}
+
+.islam-logo {
+
+  margin-left: -2em;
+  /*Created by Youssef */
+
+  height: 72%;
+  /*Created by Youssef */
+
+}
+
+
+
+.h1 {
+
+  color: var(--F-c-);
+
+  text-align: center;
+
+  font-size: 3vw;
+
+  margin-bottom: 5vh;
+
+}
+
+
+
+#wrong-about>.box-cont {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  grid-template-columns: auto auto auto;
+
+  width: 100%;
+
+  zoom: 0.9;
+
+  height: 85vh;
+
+}
+
+#wrong-about>.box-cont .box {
+
+  border: 1px solid #707070;
+
+  width: 25vw;
+
+  margin: 1vh 0.7vw;
+
+  border-radius: 2em;
+
+  box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.377);
+
+  flex-wrap: wrap;
+
+  padding: 1vw;
+
+  height: -webkit-fill-available;
+
+  margin-bottom: 10vh;
+
+  transform: scale(0.85);
+
+}
+
+#wrong-about>.box-cont .box .img {
+
+  width: 10vh;
+
+  height: 10vh;
+
+  border-radius: 50%;
+
+  background-image: url("./Media/Rashash.svg");
+
+  background-size: 70%;
+
+  background-repeat: no-repeat;
+
+  background-color: var(--R-c);
+
+  background-position: center;
+
+  transform: rotate(46deg);
+
+  zoom: 1.8;
+
+  margin-top: 1.8;
+
+}
+
+.woman-ban {
+
+  width: 10vh;
+  /*By Youssef can be simplified*/
+
+  height: 10vh;
+
+  border-radius: 50%;
+
+  background-image: url("./Media/Woman-Ban.svg");
+
+  background-size: 70%;
+
+  background-repeat: no-repeat;
+
+  background-color: var(--R-c);
+
+  background-position: center;
+
+  zoom: 1.8;
+
+  margin-top: 1.8;
+
+}
+
+.mohammed-warshiiping {
+
+  width: 10vh;
+  /*By Youssef can be simplified*/
+
+  height: 10vh;
+
+  border-radius: 50%;
+
+  background-image: url("./Media/sala.svg");
+
+  background-size: 70%;
+
+  background-repeat: no-repeat;
+
+  background-color: var(--R-c);
+
+  background-position: center;
+
+  zoom: 1.8;
+
+  margin-top: 1.8;
+
+}
+
+#wrong-about>.box-cont .box .txt {
+
+  width: 100%;
+
+  text-align: center;
+
+  height: 50%;
+
+}
+
+#wrong-about>.box-cont .box .txt h2 {
+
+  color: var(--R-c);
+
+  font-size: 1.7vw;
+
+  font-weight: 700;
+
+}
+
+#wrong-about>.box-cont .box .txt p {
+
+  color: var(--F-c-);
+
+  font-size: 1.5vw;
+
+  font-weight: 600;
+
+}
+
+
+
+#wrong-about>.box-cont .box .txt p b {
+
+  color: var(--F-c-);
+
+  font-size: 1.5vw;
+
+  font-weight: bolder;
+
+}
+
+.img.atom {
+
+  background-image: url("./Media/b-atom.svg") !important;
+
+  background-size: cover !important;
+
+  background-color: unset !important;
+
+}
+
+.embr {
+
+  width: 10vh;
+
+  height: 10vh;
+
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+
+  background-color: var(--B-c);
+
+  background-position: center;
+
+  zoom: 1.8;
+
+  margin-top: 1.8;
+
+}
+
+.embr svg {
+
+  transform: scale(0.9) translate(5%, 0px);
+
+}
+
+
+
+.iron {
+
+  width: 10vh;
+
+  height: 10vh;
+
+  border-radius: 50%;
+
+  background-image: url("./Media/meteorites.svg");
+
+  background-size: 70%;
+
+  background-repeat: no-repeat;
+
+  background-color: var(--B-c);
+
+  background-position: center;
+
+  zoom: 1.8;
+
+  margin-top: 1.8;
+
+}
+
+#wrong-about>.box-cont .box .txt.atom h2 {
+
+  color: var(--B-c) !important;
+
+  font-size: 1.7vw;
+
+  font-weight: 700;
+
+}
+
+#wrong-about>.box-cont .box .txt.atom p {
+
+  color: var(--B-c) !important;
+
+  font-size: 1.3vw;
+
+  font-weight: 600;
+
+}
+
+
+
+#footer {
+
+  width: 100vw;
+
+  background: var(--F-c-);
+
+  height: 64vh;
+  /*Edited by Youssef It was margin: 60vh*/
+
+  flex-wrap: wrap;
+
+}
+
+#footer>.feedback {
+
+  height: 30vh;
+
+  width: 30%;
+
+  text-align: center;
+
+  flex-wrap: wrap;
+
+  margin: 0em 0em 1.7em 0em;
+  /*Created by Youssef */
+
+}
+
+#footer>.feedback h1 {
+
+  font-size: 2vw;
+
+  margin: 1.3em 0.5em 0em 0.5em;
+  /*Edited by Youssef It was margin: 0.5em; */
+
+}
+
+#footer>.feedback h3 {
+
+  font-size: 1.2vw;
+
+  color: #c4c4c4;
+
+  margin: 0.5em 1em 0.85em 1em;
+  /*Edited by Youssef It was margin: 1em; */
+
+}
+
+
+
+.feedback input {
+
+  height: 5vh;
+
+  font-size: 0.8vw;
+
+}
+
+
+
+#footer>.feedback input[type="text"] {
+
+  background: #418e43;
+
+  border: 0.12vw solid var(--G-c);
+
+  border-radius: 7em 0 0 7em;
+
+  width: 15vw;
+
+  padding: 0.5vh 1vw;
+
+  margin: 1vh -1vw;
+
+}
+
+#footer>.feedback input[type="text"]:focus {
+
+  outline: none;
+
+  border: 2px var(--G-c) solid;
+
+}
+
+#footer>.feedback input[type="text"]::placeholder {
+
+  color: #c4c4c4;
+
+}
+
+#footer>.feedback input[type="submit"] {
+
+  background: var(--G-c);
+
+  color: #fff;
+
+  border-radius: 0 7em 7em 0;
+
+  padding: 0.5vh 1vw;
+
+  margin: 1vh 0vw;
+
+  border: none;
+
+  outline: none;
+
+  border: 0.15vw solid var(--G-c);
+
+  width: 5vw;
+
+  height: 6.5vh;
+
+}
+
+#footer>.cont {
+
+  height: max-content;
+
+  width: 100%;
+
+  height: 30vh;
+
+}
+
+#footer>.cont .about {
+
+  height: 100%;
+
+  width: 35%;
+
+  padding: 0 3vw;
+
+}
+
+#footer>.cont .about h2 {
+
+  font-size: 1vw;
+
+  text-align: left;
+
+  margin-top: -1em;
+
+}
+
+#footer>.cont .about h1 {
+
+  font-size: 1.2vw;
+
+  text-align: left;
+
+  color: #c4c4c4;
+
+}
+
+#footer>.cont .about img {
+
+  width: 5vw;
+
+  margin-top: -2vh;
+
+}
+
+#footer>.cont .about i {
+
+  font-size: 2vw;
+
+  margin: 0.3vw;
+
+  color: var(--G-c);
+
+  background: #fff;
+
+  border-radius: 50%;
+
+  padding: 0.5vw;
+
+}
+
+#footer>.cont .quick-links {
+
+  width: 12%;
+
+  height: 100%;
+
+}
+
+#footer>.cont h1 {
+
+  font-size: 1.5vw;
+
+}
+
+#footer>.cont li {
+
+  font-size: 1vw;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+
+#footer>.cont .sources {
+
+  width: 15%;
+
+
+
+  height: 100%;
+
+}
+
+#footer>.cont .contact {
+
+  width: 20%;
+
+  height: 100%;
+
+}
+
+.fa-phone-alt {
+
+  color: var(--G-c) !important;
+
+  margin: 0 5px 0 0;
+
+}
+
+
+
+/*-------------------titled---------------------*/
+
+#about-islam .txt h3 a,
+
+#about-islam .txt h3 sup {
+
+  color: var(--G-c);
+
+  cursor: pointer;
+
+}
+
+#header-content>.overlay h4 a,
+
+#header-content>.overlay h4 sup {
+
+  color: #fff;
+
+  cursor: pointer;
+
+  position: relative;
+
+}
+
+#wrong-about>.box-cont .box .txt a,
+
+#wrong-about>.box-cont .box .txt sup {
+
+  color: var(--G-c) !important;
+
+  cursor: pointer;
+
+}
+
+a sup {
+
+  zoom: 1.5;
+
+}
+
+
+
+.h1 a,
+
+.h1 sup {
+
+  color: var(--G-c) !important;
+
+  cursor: pointer;
+
+}
+
+.h1 span {
+
+  font-size: 2vw;
+
+}
+
+a sup {
+
+  cursor: pointer;
+
+}
+
+a {
+
+  position: relative !important;
+
+}
+
+a span {
+
+  position: absolute;
+
+  width: max-content;
+
+  bottom: -0%;
+
+  background-color: var(--F-c-);
+
+  left: 30%;
+
+  padding: 0 1vw;
+
+  z-index: 99;
+
+  transform: translate(-5%, 100%);
+
+  display: none;
+
+}
+
+a:hover>span {
+
+  display: block;
+
+  text-align: center;
+
+}
+
+.L-aya {
+
+  max-width: 20vw !important;
+
+  left: 800%;
+
+  transform: translate(-160%, 100%);
+
+}
+
+span.L-aya::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 0;
+
+  height: 0;
+
+  border-left: 1vw solid transparent;
+
+  border-right: 1vw solid transparent;
+
+  border-bottom: 1vw solid var(--F-c-);
+
+  left: 89% !important;
+
+  top: -5% !important;
+
+  transform: translate(-80%, 25%) !important;
+
+}
+
+span.a-iron::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 0;
+
+  height: 0;
+
+  border-left: 1vw solid transparent;
+
+  border-right: 1vw solid transparent;
+
+  border-bottom: 1vw solid var(--F-c-);
+
+  left: 7% !important;
+
+  top: -8% !important;
+
+  transform: translate(-80%, 25%) !important;
+
+}
+
+span::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 0;
+
+  height: 0;
+
+  border-left: 1vw solid transparent;
+
+  border-right: 1vw solid transparent;
+
+  border-bottom: 1vw solid var(--F-c-);
+
+  left: 0;
+
+  top: -25%;
+
+  transform: translate(0, 25%);
+
+}
+
+span.aya::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 0;
+
+  height: 0;
+
+  border-left: 1vw solid transparent;
+
+  border-right: 1vw solid transparent;
+
+  border-bottom: 1vw solid var(--F-c-);
+
+  left: 0;
+
+  top: -10%;
+
+  transform: translate(0, 25%);
+
+}
+
+/*----------------------------------------*/
+
+@media only screen and (min-width: 1030px) {
+
+  .p-nav {
+
+    display: none !important;
+
+  }
+
+  .navbtn {
+
+    display: none;
+
+  }
+
+  /* Youssef starts */
+
+  #header-content>.overlay h4 {
+
+    position: unset !important;
+
+    margin-left: 53vw;
+
+    margin-top: 1.5vh;
+
+  }
+
+  .btn {
+
+    margin: 0.5vh 0;
+
+  }
+
+  nav {
+
+    display: none !important;
+
+  }
+
+  /* Youssef finish */
+
+}
+
+/*----------------------------------------*/
+
+@media only screen and (max-width: 1030px) {
+
+  span {
+
+    display: none !important;
+
+  }
+
+  .this-logo {
+
+    display: block;
+
+    width: 20vw;
+
+  }
+
+  .btn:hover {
+
+    transform: scale(0.8);
+
+  }
+
+  .btn {
+
+    transform: scale(0.8);
+
+    font-size: 3vw;
+
+    margin: 5vh 0;
+
+  }
+
+  #header-content>.overlay h4 {
+
+    font-size: 3vw;
+
+    position: unset;
+
+    margin-top: 4vh;
+
+  }
+
+  .main-content {
+
+    scroll-snap-type: none;
+
+  }
+
+  .phone {
+
+    color: var(--F-c-) !important;
+
+    color: black;
+
+    text-align: center;
+
+    width: 100%;
+
+    height: 100vh;
+
+    font-size: 5vw;
+
+    scroll-behavior: smooth;
+
+  }
+
+  * {
+
+    text-align: center !important;
+
+  }
+
+  #header-content>.overlay h3 {
+
+    font-size: 2vw;
+
+  }
+
+  #header-content>.overlay h1 {
+
+    font-size: 9vw;
+
+  }
+
+
+
+  #about-islam .content {
+
+    height: fit-content;
+
+    width: 100%;
+
+    zoom: 0.8;
+
+    flex-wrap: wrap-reverse;
+
+  }
+
+  #about-islam {
+
+    height: fit-content !important;
+
+    margin: 10vh 0;
+
+  }
+
+  #about-islam .a-img {
+
+    margin: auto;
+
+    transform: scale(1.5);
+
+    margin-bottom: 6.5vh;
+
+  }
+
+  #about-islam .img {
+
+    margin: 0;
+
+    transform: perspective(0) rotateY(0deg);
+
+    display: none;
+
+  }
+
+  .h1 {
+
+    font-size: 6.5vw;
+
+  }
+
+  #about-islam .txt h3 {
+
+    font-size: 4vw;
+
+  }
+
+  #about-islam .txt h2 {
+
+    font-size: 6vw;
+
+  }
+
+  #wrong-about {
+
+    height: fit-content !important;
+
+    margin: 10vh 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+  }
+
+  #wrong-about>.box-cont .box {
+
+    height: fit-content;
+
+    width: fit-content;
+
+    min-height: 1200px;
+
+  }
+
+  #wrong-about>.box-cont .box .txt p b {
+
+    font-size: 4vw;
+
+  }
+
+  #wrong-about>.box-cont .box .txt p,
+
+  #wrong-about>.box-cont .box .txt.atom p {
+
+    font-size: 4vw;
+
+  }
+
+  #wrong-about>.box-cont .box .txt h2,
+
+  #wrong-about>.box-cont .box .txt.atom h2 {
+
+    font-size: 5vw;
+
+  }
+
+  #wrong-about>.box-cont {
+
+    height: fit-content;
+
+    width: 80vw;
+
+  }
+
+  .phone {
+
+    display: none;
+
+  }
+
+  h3 {
+
+    padding: 0 !important;
+
+  }
+
+  #footer>.feedback {
+
+    width: 100%;
+
+  }
+
+  #footer>.feedback h1 {
+
+    font-size: 5vw;
+
+  }
+
+  #footer>.feedback h3 {
+
+    font-size: 3vw;
+
+  }
+
+  #footer>.feedback input[type="text"] {
+
+    width: 30vw;
+
+    height: 5vh;
+
+    background: #38783a;
+
+    padding: 0 !important;
+
+    margin: 0 !important;
+
+    font-size: 2vw;
+
+  }
+
+  #footer>.feedback input[type="submit"] {
+
+    width: fit-content;
+
+    height: 5vh;
+
+    background: var(--G-c);
+
+    font-size: 2vw;
+
+    margin: 0;
+
+    padding: 0 2vw;
+
+  }
+
+  nav {
+
+    display: none;
+
+  }
+
+  #footer {
+
+    height: fit-content;
+
+  }
+
+  #footer>.feedback {
+
+    height: fit-content;
+
+    padding: 5vh 0;
+
+  }
+
+  #footer>.cont {
+
+    display: none;
+
+  }
+
+  .p-nav {
+
+    background-color: var(--B-c);
+
+    z-index: 99;
+
+  }
+
+  .p-nav>ul {
+
+    flex-wrap: wrap;
+
+    flex-direction: column;
+
+    background-color: var(--B-c);
+
+  }
+
+  .p-nav>ul img {
+
+    width: 50vw;
+
+  }
+
+  .p-nav>ul .navs {
+
+    flex-wrap: wrap;
+
+    flex-direction: column;
+
+    font-size: 8vw;
+
+  }
+
+  .overlay {
+
+    z-index: 98;
+
+  }
+
+  .navbtn {
+
+    background-color: var(--B-c);
+
+    border-radius: 0 2vw 2vw 0;
+
+  }
+
+  #times {
+
+    background-color: var(--B-c);
+
+  }
+
+  .slide-in-left {
+
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+    animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+    display: flex !important;
+
+  }
+
+
+
+  @-webkit-keyframes slide-in-left {
+
+    0% {
+
+      -webkit-transform: translateX(-1000px);
+
+      transform: translateX(-1000px);
+
+      opacity: 0;
+
+    }
+
+    100% {
+
+      -webkit-transform: translateX(0);
+
+      transform: translateX(0);
+
+      opacity: 1;
+
+    }
+
+  }
+
+  @keyframes slide-in-left {
+
+    0% {
+
+      -webkit-transform: translateX(-1000px);
+
+      transform: translateX(-1000px);
+
+      opacity: 0;
+
+    }
+
+    100% {
+
+      -webkit-transform: translateX(0);
+
+      transform: translateX(0);
+
+      opacity: 1;
+
+    }
+
+  }
+
+
+
+  .slide-out-left {
+
+    -webkit-animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+
+    animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+
+    display: flex !important;
+
+  }
+
+
+
+  @-webkit-keyframes slide-out-left {
+
+    0% {
+
+      -webkit-transform: translateX(0);
+
+      transform: translateX(0);
+
+      opacity: 1;
+
+    }
+
+    100% {
+
+      -webkit-transform: translateX(-1000px);
+
+      transform: translateX(-1000px);
+
+      opacity: 0;
+
+    }
+
+  }
+
+  @keyframes slide-out-left {
+
+    0% {
+
+      -webkit-transform: translateX(0);
+
+      transform: translateX(0);
+
+      opacity: 1;
+
+    }
+
+    100% {
+
+      -webkit-transform: translateX(-1000px);
+
+      transform: translateX(-1000px);
+
+      opacity: 0;
+
+    }
+
+  }
+
+  #header-content {
+
+    height: fit-content !important;
+
+  }
+
+  #header-content>.overlay {
+
+    height: fit-content !important;
+
+  }
+
+}
+
+.body {
+
+  overflow: hidden !important;
+
+}
+
+/*----------------------------------------*/
+
+@media only screen and (max-width: 850px) {
+
+  #header-content>.overlay h3 {
+
+    font-size: 3vw;
+
+  }
+
+  #wrong-about>.box-cont .box {
+
+    height: fit-content;
+
+    width: fit-content;
+
+    min-height: 1000px;
+
+  }
+
+  .btn:hover {
+
+    transform: scale(1.3);
+
+  }
+
+  .btn {
+
+    transform: scale(1.3);
+
+  }
+
+}
+
+
+
+/*----------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+
+  #header-content>.overlay h3 {
+
+    font-size: 4vw;
+
+  }
+
+  #header-content {
+
+    height: 80vh;
+
+  }
+
+  #header-content>.overlay {
+
+    height: 80vh;
+
+  }
+
+
+
+  #wrong-about>.box-cont .box {
+
+    height: fit-content;
+
+    width: fit-content;
+
+    min-height: 500px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .phone {
+
+    display: none;
+
+  }
+
+}
+
+
+
+/*----------------------------------------*/

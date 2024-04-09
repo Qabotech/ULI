@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: var(--font-main);
+  color: #fff;
+  font-weight: 500;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  zoom: 1;
+}
+:root {
+  --F-c-: #38783a;
+  --G-c: #f3b603;
+  --B-c: #386f86;
+  --R-c: #bf3f2e;
+  --font-main: "Cairo", sans-serif;
+}
+.D-F {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+nav > ul {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  justify-content: unset !important;
+  font-family: var(--font-main);
+}
+nav > ul li {
+  padding: 1em;
+  list-style: none;
+  font-weight: 900;
+}
+nav > ul img {
+  width: 6vw;
+  filter: grayscale(100%);
+}
+.main-content {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+#header-content {
+  background-image: url("https://cdn.discordapp.com/attachments/895360180265574500/938142182622244954/kaba-2227171.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#header-content > .overlay {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#header-content > .overlay h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 4.33vw;
+  color: var(--G-c);
+  font-weight: 600;
+}
+#header-content > .overlay h3 {
+  width: 75%;
+  text-align: center;
+  margin: 0;
+  font-size: 1.5vw;
+  color: var(--G-c);
+  font-weight: unset;
+}
+#header-content > .overlay img {
+  padding: 7vh 0;
+}
+
+#about-islam {
+  padding: 0 12.5%;
+}
+
+#about-islam .content {
+  height: max-content;
+  width: 100%;
+  zoom: 0.8;
+}
+#about-islam .txt {
+  width: 100%;
+  height: -webkit-fill-available;
+
+  flex-wrap: wrap;
+  justify-content: left;
+}
+#about-islam .txt h3 {
+  color: var(--F-c-);
+  width: 100%;
+  font-size: 1.7vw;
+  font-weight: unset;
+  text-align: justify;
+}
+#about-islam .txt h2 {
+  color: var(--F-c-);
+  width: 100%;
+  font-size: 2vw;
+  font-weight: 600;
+}
+#about-islam .img {
+  width: 80%;
+  height: 800px;
+  transform: perspective(800px) rotateY(-11deg);
+  margin-left: 5%;
+  background-image: url("./Media/islam-r.svg");
+  background-size: 100% 100%;
+  overflow: hidden;
+  min-width: 200px;
+  min-height: 300px;
+  max-height: 80vh;
+}
+
+#about-islam .a-img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  padding: 1em 0;
+}
+
+#about-islam .a-img svg {
+  width: 100%;
+  height: 100%;
+}
+
+.h1 {
+  color: var(--F-c-);
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 5vh;
+}
+
+#wrong-about > .box-cont {
+  display: grid;
+  place-content: center;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  zoom: 0.9;
+}
+#wrong-about > .box-cont .box {
+  border: 1px solid #707070;
+  height: fit-content;
+  width: 250px;
+  margin: 1em 2.5em;
+  border-radius: 2em;
+  box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.377);
+  flex-wrap: wrap;
+  padding: 2em;
+}
+#wrong-about > .box-cont .box .img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  background-image: url("./Media/Rashash.svg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-color: var(--R-c);
+  background-position: center;
+  transform: rotate(46deg);
+}
+#wrong-about > .box-cont .box .txt {
+  width: 100%;
+  height: min-content;
+  text-align: center;
+}
+#wrong-about > .box-cont .box .txt h2 {
+  color: var(--R-c);
+  font-size: 1.3vw;
+  font-weight: 700;
+}
+#wrong-about > .box-cont .box .txt p {
+  color: var(--R-c);
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+.img.atom {
+  background-image: url("./Media/b-atom.svg") !important;
+  background-size: cover !important;
+  background-color: unset !important;
+}
+#wrong-about > .box-cont .box .txt.atom h2 {
+  color: var(--B-c) !important;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+#wrong-about > .box-cont .box .txt.atom p {
+  color: var(--B-c) !important;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+#footer {
+  width: 100vw;
+  background: var(--F-c-);
+  height: 60vh;
+  flex-wrap: wrap;
+}
+#footer > .feedback {
+  height: 25vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#footer > .feedback {
+  height: 25vh;
+  width: 30%;
+
+  text-align: center;
+}
+#footer > .feedback h1 {
+  font-size: 2vw;
+  margin: 0.5em;
+}
+#footer > .feedback h3 {
+  font-size: 1.2vw;
+  color: #c4c4c4;
+  margin: 1em;
+}
+#footer > .feedback input[type="text"] {
+  background: #418e43;
+  border: 2px solid var(--G-c);
+  border-radius: 7em 0 0 7em;
+  width: 15vw;
+  padding: 0.5em 1em;
+  margin: 1em;
+}
+#footer > .feedback input[type="text"]:focus {
+  outline: none;
+  border: 2px var(--G-c) solid;
+}
+#footer > .feedback input[type="text"]::placeholder {
+  color: #c4c4c4;
+}
+#footer > .feedback input[type="submit"] {
+  background: #d9c27e;
+  color: #000;
+  border-radius: 0 7em 7em 0;
+  padding: 0.5em 1em;
+  margin: 1em;
+  border: none;
+  outline: none;
+}
+#footer > .cont {
+  height: max-content;
+  width: 100%;
+
+  height: 30vh;
+}
+#footer > .cont .about {
+  height: 100%;
+  width: 35%;
+  padding: 0 3vw;
+}
+#footer > .cont .about h2 {
+  font-size: 1vw;
+  text-align: left;
+  margin-top: -1em;
+}
+#footer > .cont .about h1 {
+  font-size: 1.2vw;
+  text-align: left;
+  color: #c4c4c4;
+}
+#footer > .cont .about img {
+  width: 5vw;
+}
+#footer > .cont .about i {
+  font-size: 2vw;
+  margin: 0.3vw;
+  color: var(--G-c);
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.5vw;
+}
+#footer > .cont .quick-links {
+  width: 12%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+#footer > .cont .sources {
+  width: 15%;
+
+  height: 100%;
+}
+#footer > .cont .contact {
+  width: 20%;
+
+  height: 100%;
+}
+.fa-phone-alt {
+  color: var(--G-c) !important;
+  margin: 0 5px 0 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-content {
+    display: none;
+  }
+  .phone {
+    color: var(--F-c-) !important;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .phone {
+    display: none;
+  }
+}

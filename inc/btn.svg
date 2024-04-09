@@ -1,0 +1,7 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="137" height="36" viewBox="0 0 137 36">
+  <g id="Rectangle_5" data-name="Rectangle 5" fill="none" stroke="#f3b603" stroke-width="1.5">
+    <rect width="137" height="36" rx="18" stroke="none"/>
+    <rect x="0.75" y="0.75" width="135.5" height="34.5" rx="17.25" fill="none"/>
+  </g>
+  <text id="Read_more" data-name="Read more" transform="translate(21 24)" fill="#f3b603" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Read more</tspan></text>
+</svg>
